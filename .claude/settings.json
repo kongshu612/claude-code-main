@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copilot -p \"Search the web for 'Anthropic Claude Teammates' product announcement 2025 2026. What is it? Is it different from Claude Code subagents? Does it run in Slack or Claude.ai? Does it have persistent identity and memory? Provide official announcement URLs.\")",
+      "Bash(copilot -p \"Search web for 'Anthropic teammate' Slack Claude.ai persistent agent feature 2026. Also search for 'Claude Agent Skills' and 'Claude for Enterprise teammate'. Look for any agentic product with persistent identity, cross-session memory, that acts as a coworker. Provide URLs.\")",
+      "Read(//c/Users/XIANGJ~1/AppData/Local/Temp/xiangjianwu_claude/claude/c--codeRepository-claude-code-main/15f25d81-9834-4069-97dc-bbb4839d3608/tasks/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\codeRepository\\xj_claude\\docs"
+    ]
+  }
+}
