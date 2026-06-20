@@ -51,7 +51,18 @@
       "Bash(python3 -c \"import sys,json;d=json.load\\(sys.stdin\\);print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k in ['name','main','bin']},indent=2\\)\\)\")",
       "Bash(python3 -c \"import sys,json;d=json.load\\(sys.stdin\\);print\\(json.dumps\\(d,indent=2\\)\\)\")",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('enabledPlugins' in d, json.dumps\\(d.get\\('enabledPlugins'\\), indent=2\\)\\)\")",
-      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('enabledPlugins'\\), indent=2\\)\\)\")"
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('enabledPlugins'\\), indent=2\\)\\)\")",
+      "Bash(find C:\\\\\\\\codeRepository\\\\\\\\claude-code-main -name \"QueryEngine.ts\" -o -name \"query.ts\")",
+      "Bash(grep -E \"state\\\\.\\(ts|tsx\\)$\")",
+      "Bash(grep -c \"KAIROS\" cli.js)",
+      "Bash(grep -c \"getKairosActive\\\\|kairosActive\" cli.js)",
+      "Bash(grep -c \"append-only\\\\|daily log file\\\\|buildAssistantDailyLogPrompt\\\\|distilled index\" cli.js)",
+      "Bash(grep -c \"isKairosEnabled\\\\|isAssistantMode\" cli.js)",
+      "Bash(ls -la docs/feature-gating.md)",
+      "Bash(find . -iname \"*feature-gat*\" -not -path \"*/node_modules/*\")",
+      "Bash(sed -n '1,40p' work_archieve/align_task-list-v2_20260604-1617.md)",
+      "Bash(awk '/## STUBs|## Follow-up|## Intentionally skipped/{p=1} p{print} /^---$/{if\\(p\\)p=0}' work_archieve/align_task-list-v2_20260604-1617.md)",
+      "Bash(awk '/## STUBs|## Follow-up/{p=1} p{print} /^## [A-Z]/{if\\(p && !/## STUBs|## Follow-up/\\)p=0}' work_archieve/align_tasks_20260604-1610.md)"
     ]
   }
 }
